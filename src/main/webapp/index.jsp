@@ -10,24 +10,24 @@
 <head>
     <title>COC Searching</title>
     <link rel="stylesheet" href="/resources/css/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <%--<link rel="stylesheet" href="/resources/css/custom/landing-page.css">--%>
+    <link rel="stylesheet" href="/resources/css/common/navbar-static-top.css"/>
+    <%--<link rel="stylesheet" href="/resources/css/font-awesome/css/font-awesome.min.css">--%>
 </head>
-<body >
-<div>
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <div ng-include="'/resources/js/share/navbar/_nav.html'"></div>
-            <ui-view></ui-view>
-        </div>
-
-    </div>
-</div>
-<script src="/resources/js/jquery/jquery.js"></script>
-<script src="/resources/js/angular-1.6.2/angular.min.js"></script>
-<script src="/resources/js/angular-1.6.2/angular-resource.min.js"></script>
-<script src="/resources/js/angular-1.6.2/angular-route.min.js"></script>
-<script src="/resources/css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-<script src="/resources/js/angular-ui-bootstrap/angular-ui.js"></script>
-<script src="/resources/js/app.js"></script>
-<script src="/resources/js/share/navbar/navCtrl.js"></script>
-</body>
+<body>
+    <header></header>
+    <ui-view></ui-view>
+    <%--library javascript--%>
+    <script src="/resources/js/jquery/jquery.js"></script>
+    <script src="/resources/js/angular-1.2.32/angular.min.js"></script>
+    <script src="/resources/css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="/resources/js/angular-ui-router/angular-ui-router.min.js"></script>
+    <%--<script src="/resources/js/angular-1.2.32/angular-route.min.js"></script>--%>
+    <script src="/resources/js/angular-ui-bootstrap/angular-ui.js"></script>
+    <%--custome javascript--%>
+    <script src="/resources/js/app/app.js"></script>
+    <script src="/resources/js/app/share/navbar/HeaderCtrl.js"></script>
+    <script src="/resources/js/app/home/HomeCtrl.js"></script>
+    <script src="/resources/js/app/services/coc-service.js"></script>
+    </body>
 </html>
