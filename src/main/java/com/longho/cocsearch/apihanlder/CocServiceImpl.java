@@ -1,13 +1,13 @@
 package com.longho.cocsearch.apihanlder;
 
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.util.UriComponents;
+import org.springframework.web.util.UriComponentsBuilder;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -17,21 +17,21 @@ import java.util.List;
 public class CocServiceImpl implements CocService{
 
     private final String url = "https://api.clashofclans.com/v1";
-    private final String token = "";
+    private final String token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjI2YjYyNTVlLTVmZDUtNDJkNy05NDhkLWRiM2ZkOWYwNzRhOCIsImlhdCI6MTQ4ODU5NjIyNiwic3ViIjoiZGV2ZWxvcGVyLzQzYTViODgzLTdjOGEtNzA0ZC1lMDAzLTk4ZDM4YzgxNWU1MyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjExNi4xMDIuMTQ3LjE4NiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.tDZAACYiK-SI_9_kt9IsBSeRG_gYVOL0KW_zjsM_bkhvJIrD2BXY-qhW9aAwxv7-V937JQiH1RaU9DBwJBbYog";
 
     public List<Object> GetMembersByClanName(String name) {
         return null;
     }
 
 
-    public Object getClanByName(String name, int limit, String before, String after) {
+    public Object getClansByName(String name, int limit, String before, String after) {
         try {
             RestTemplate restTemplate = new RestTemplate();
             HttpHeaders headers = new HttpHeaders();
-            headers.set(HttpHeaders.AUTHORIZATION, "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjZlNDdlNmQ4LTQwNTQtNGI4MS04YjNmLTg2NWJmYmVlYjY0YyIsImlhdCI6MTQ4ODIxMzk2Mywic3ViIjoiZGV2ZWxvcGVyLzQzYTViODgzLTdjOGEtNzA0ZC1lMDAzLTk4ZDM4YzgxNWU1MyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjI3Ljc1LjE0Mi4xMDYiXSwidHlwZSI6ImNsaWVudCJ9XX0.nmSJ-VpcdIYaQxpjfKxzdHDcgRUvuHSlY9XuS5q7f0vIPhueasCMjSXlBEavFVCIJxJJpkqCQdPqSMmNcK-m3w");
+            headers.set(HttpHeaders.AUTHORIZATION, "Bearer " + token);
             HttpEntity<String> entity = new HttpEntity<String>(null, headers);
             ResponseEntity<Object> responseEntity = restTemplate
-                    .exchange(buildUrl(name,limit,before,after),
+                    .exchange(buildUrl(name,limit,before,after).toUri(),
                             HttpMethod.GET,
                             entity,
                             Object.class);
@@ -43,25 +43,41 @@ public class CocServiceImpl implements CocService{
 
     }
 
-    private String buildUrl(String name, int limit, String before, String after)
+    private UriComponents buildUrl(String name, int limit, String before, String after)
     {
-        String fullUrl = url + "/clans?limit=" + limit + "&";
+
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(url + "/clans");
+        builder.queryParam("limit",limit);
         if(!StringUtils.isEmpty(name)){
-            fullUrl += "name=" + name;
+            builder.queryParam("name",name);
         }
         if(!StringUtils.isEmpty(before)){
-            if(fullUrl.contains("name=")){
-                fullUrl += "&";
-            }
-            fullUrl += "before=" + before;
+            builder.queryParam("before",before);
         }
         if(!StringUtils.isEmpty(after)){
-            if(fullUrl.contains("name=") || fullUrl.contains("before=")){
-                fullUrl += "&";
-            }
-            fullUrl += "after=" + after;
+            builder.queryParam("after",after);
         }
-        return fullUrl;
+        return builder.build();
     }
 
+    public Object getClanByTag(String tag) {
+        try{
+            String urlGetClan = "https://api.clashofclans.com/v1/clans/{tag}";
+            RestTemplate restTemplate = new RestTemplate();
+            HttpHeaders headers = new HttpHeaders();
+            headers.set(HttpHeaders.AUTHORIZATION, "Bearer " + token);
+            headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON, MediaType.APPLICATION_OCTET_STREAM));
+            HttpEntity<String> entity = new HttpEntity<String>(null, headers);
+            ResponseEntity<Object> responseEntity = restTemplate
+                    .exchange(urlGetClan,
+                            HttpMethod.GET,
+                            entity,
+                            Object.class,tag);
+            return responseEntity.getBody();
+
+        }catch (Exception ex){
+            System.out.println(ex.toString());
+        }
+        return null;
+    }
 }

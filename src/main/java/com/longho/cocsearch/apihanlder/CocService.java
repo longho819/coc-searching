@@ -10,6 +10,8 @@ public interface CocService {
 
     public List<Object> GetMembersByClanName(String name);
 
-    public Object getClanByName(String name, int limit, String before, String after);
+    public Object getClansByName(String name, int limit, String before, String after);
+
+    public Object getClanByTag(String tag);
 
 }

@@ -35,7 +35,13 @@ public class HomeController {
             @RequestParam(value = "limit", defaultValue = "5") int limit,
             @RequestParam(value = "after", defaultValue = "") String after,
             @RequestParam(value = "before", defaultValue = "") String before){
-        return cocService.getClanByName(name, limit,after,before);
+        return cocService.getClansByName(name, limit,before,after);
+    }
+
+    @RequestMapping(value="/clan", method = RequestMethod.GET)
+    public @ResponseBody Object getClann(
+            @RequestParam(value = "tag") String tag){
+        return cocService.getClanByTag(tag);
     }
 
 }

@@ -15,8 +15,10 @@
     <%--<link rel="stylesheet" href="/resources/css/font-awesome/css/font-awesome.min.css">--%>
 </head>
 <body>
-    <header></header>
+<header></header>
+<div class="container">
     <ui-view></ui-view>
+</div>
     <%--library javascript--%>
     <script src="/resources/js/jquery/jquery.js"></script>
     <script src="/resources/js/angular-1.2.32/angular.min.js"></script>

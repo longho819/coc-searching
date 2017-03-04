@@ -1,31 +1,34 @@
 angular.module('myApp')
     .controller('HomeCtrl',HomeCtrl);
 
-HomeCtrl.$inject = ['$scope','ClanService'];
+HomeCtrl.$inject = ['$scope','ClanService','$stateParams'];
 
-function HomeCtrl($scope,ClanService){
+function HomeCtrl($scope,ClanService,$stateParams){
+    $scope.clanName = $stateParams.keyword;
     $scope.title = 'Welcome To';
-    $scope.clanName = '';
     $scope.limit = 10;
+    $scope.before = $stateParams.before;
+    $scope.after  = $stateParams.after;
+    search();
+
     function searchClan(name,before,after) {
-        return getClan(name,$scope.limit,before,after).then(function() {
+        return getClans(name,$scope.limit,before,after).then(function(data) {
+            $scope.clans = data;
             console.log('Activated Clan View');
         });
     }
 
-    function getClan(name,limit,before,after){
-        return ClanService.getClan(name,limit,before,after)
+    function getClans(name,limit,before,after){
+        return ClanService.searchClan(name,limit,before,after)
             .then(function(data){
-                $scope.clans = data;
-                return $scope.clans;
+                return data;
             })
     }
 
-    $scope.search = function(){
+    function search(){
         if($scope.clanName != ''){
-            searchClan($scope.clanName,"","");
+            searchClan($scope.clanName,$scope.before,$scope.after);
         }
-
     };
 
     $scope.paging= function(par){
@@ -35,7 +38,5 @@ function HomeCtrl($scope,ClanService){
             searchClan($scope.clanName,$scope.clans.paging.cursors.before,"");
         }
 
-    }
-
-
+    };
 }
