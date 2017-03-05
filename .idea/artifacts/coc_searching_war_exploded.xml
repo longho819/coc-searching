@@ -21,6 +21,9 @@
           <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-security:9.0.2.v20130417" />
           <element id="library" level="project" name="Maven: com.sparkjava:spark-template-freemarker:2.0.0" />
           <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.19" />
+          <element id="library" level="project" name="Maven: com.heroku.sdk:heroku-jdbc:0.1.0" />
+          <element id="library" level="project" name="Maven: org.jscience:jscience:4.3.1" />
+          <element id="library" level="project" name="Maven: org.javolution:javolution:5.2.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.6.RELEASE" />
