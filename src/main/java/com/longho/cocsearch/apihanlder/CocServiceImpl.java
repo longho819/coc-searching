@@ -28,6 +28,7 @@ public class CocServiceImpl implements CocService{
 
     public Object getClansByName(String name, int limit, String before, String after) {
         try {
+            System.out.println("Token: " + token);
             RestTemplate restTemplate = new RestTemplate();
             HttpHeaders headers = new HttpHeaders();
             headers.set(HttpHeaders.AUTHORIZATION, "Bearer " + token);
@@ -40,6 +41,7 @@ public class CocServiceImpl implements CocService{
             return responseEntity.getBody();
         }catch (Exception ex){
             System.out.println(ex.toString());
+
         }
         return null;
 
@@ -59,6 +61,7 @@ public class CocServiceImpl implements CocService{
         if(!StringUtils.isEmpty(after)){
             builder.queryParam("after",after);
         }
+        System.out.println("URL: " + builder.toUriString());
         return builder.build();
     }
 
