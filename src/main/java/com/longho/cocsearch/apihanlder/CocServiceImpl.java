@@ -1,5 +1,6 @@
 package com.longho.cocsearch.apihanlder;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
@@ -17,7 +18,8 @@ import java.util.List;
 public class CocServiceImpl implements CocService{
 
     private final String url = "https://api.clashofclans.com/v1";
-    private final String token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImZjYzI1YmNmLTRlYmEtNDkwYS1iZjBlLWQwNGZhNmM0ZTEzOCIsImlhdCI6MTQ4ODY5NzIwOCwic3ViIjoiZGV2ZWxvcGVyLzQzYTViODgzLTdjOGEtNzA0ZC1lMDAzLTk4ZDM4YzgxNWU1MyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjI3Ljc1LjE0MS4yNDMiXSwidHlwZSI6ImNsaWVudCJ9XX0.EhqVri8D7sw_aYyJ93DfcxeT5giqjGXeli0YsfEvgv5sTj_BInHoRD35fIEl5AQcvncJioeZJ27Vfg2oCOB6JQ";
+    @Value("${api.token}")
+    private String token;
 
     public List<Object> GetMembersByClanName(String name) {
         return null;
