@@ -20,7 +20,7 @@ import java.util.List;
 public class CocServiceImpl implements CocService{
 
     private final String url = "https://api.clashofclans.com/v1";
-    @Value("${api.token}")
+    @Value("${api.token.deploy}")
     private String token;
 
     public List<Object> GetMembersByClanName(String name) {
