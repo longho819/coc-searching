@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="608e0edd-c970-4656-a916-ce7adc27c771" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java" />
-    </list>
+    <list default="true" id="608e0edd-c970-4656-a916-ce7adc27c771" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +51,8 @@
       <file leaf-file-name="CocServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="19" column="597" lean-forward="false" selection-start-line="19" selection-start-column="597" selection-end-line="19" selection-end-column="597" />
+            <state relative-caret-position="38">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -538,7 +536,7 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/resources/css" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IPAddress">
+  <component name="RunManager" selected="Tomcat Server.TOMCAT">
     <configuration default="false" name="HomeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1196,12 +1194,12 @@
       <workItem from="1488300047539" duration="6807000" />
       <workItem from="1488595911420" duration="17133000" />
       <workItem from="1488643103648" duration="4156000" />
-      <workItem from="1488689192911" duration="4820000" />
+      <workItem from="1488689192911" duration="5039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89472000" />
+    <option name="totallyTimeSpent" value="89691000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1673,8 +1671,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="597" lean-forward="false" selection-start-line="19" selection-start-column="597" selection-end-line="19" selection-end-column="597" />
+        <state relative-caret-position="38">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
       </provider>
