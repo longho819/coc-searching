@@ -24,8 +24,7 @@ public class HomeController {
     CocService cocService;
 
     @RequestMapping(value = "/")
-    public String Hello(HttpRequest request){
-
+    public String Hello(){
         return "index";
     }
 
