@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
+import org.springframework.web.client.HttpStatusCodeException;
+import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -39,8 +41,9 @@ public class CocServiceImpl implements CocService{
                             entity,
                             Object.class);
             return responseEntity.getBody();
-        }catch (Exception ex){
+        }catch (HttpStatusCodeException ex){
             System.out.println(ex.toString());
+            System.out.println(ex.getResponseBodyAsString());
 
         }
         return null;
