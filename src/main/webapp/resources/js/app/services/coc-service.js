@@ -5,15 +5,15 @@
 angular.module('myApp')
 .factory('ClanService',clanservice);
 
-function clanservice($http,urls){
+function clanservice($http,$location){
     var service = {
         searchClan: searchClan,
         getClanByTag: getClanByTag
     };
     return service;
-
+    // var url = $location.protocol() + "://" + $location.host() + ":" + $location.port();
     function searchClan(name, limit, before, after){
-        return $http.get(urls.BASE + '/clan/get?name=' + name
+        return $http.get('/clan/get?name=' + name
                 +'&limit=' + limit
                 +'&after=' + after
                 +'&before=' + before,
@@ -31,7 +31,7 @@ function clanservice($http,urls){
 
     function getClanByTag(tag){
         return $http.get(
-            urls.BASE + '/clan?tag=' + tag.replace('#','%23'),
+            '/clan?tag=' + tag.replace('#','%23'),
             {'Content-Type' : 'application/json'}
             )
             .then(getClan)

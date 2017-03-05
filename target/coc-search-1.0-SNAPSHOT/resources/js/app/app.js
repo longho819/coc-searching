@@ -9,7 +9,6 @@ angular
         'ui.bootstrap'
     ])
     .constant('urls',{
-        BASE: 'https://safe-meadow-37614.herokuapp.com',
         config: {
             header: {
                 'Content-Type' : 'application/json'
