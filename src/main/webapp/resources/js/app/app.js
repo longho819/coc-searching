@@ -42,5 +42,22 @@ angular
                                 })
                         }
                     }
+                }).state('playerdetail',{
+                    url:'/player/:tag',
+                    templateUrl: 'resources/js/app/clan/_playerdetail.html',
+                    controller: function($scope,$stateParams,ClanService){
+                        $scope.tagid = $stateParams.tag;
+                        getMember($stateParams.tag).then(function (data){
+                            $scope.member = data;
+                        })
+                        function getMember(tag){
+                            return ClanService.getPlayerByTag(tag)
+                                .then(function(data){
+                                    return data;
+                                })
+                        }
+                    }
+
+
                 });
     });

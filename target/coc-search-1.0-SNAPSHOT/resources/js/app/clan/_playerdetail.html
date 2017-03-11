@@ -1,0 +1,40 @@
+<div class="row content">
+    <div class="col-md-2" align="center">
+        <img ng-src="{{clan.badgeUrls.small}}"/>
+    </div>
+    <div class="col-md-4">
+        <dl class="dl-horizontal">
+            <dt>Tag</dt>
+            <dd>{{member.tag}}</dd>
+            <dt>Name</dt>
+            <dd>{{member.name}}</dd>
+            <dt>Town Hall Level</dt>
+            <dd>{{member.townHallLevel}}</dd>
+            <dt>ExpLevel</dt>
+            <dd>{{member.expLevel}}</dd>
+            <dt>Trophies</dt>
+            <dd>{{member.trophies}}</dd>
+            <dt>Best Trophies</dt>
+            <dd>{{member.bestTrophies}}</dd>
+            <dt>WarStars</dt>
+            <dd>{{member.warStars}}</dd>
+            <dt>Role</dt>
+            <dd>{{member.role}}</dd>
+        </dl>
+    </div>
+    <div class="col-md-12">
+        <table class="table table-bordered">
+            <tr>
+                <th>Troops</th>
+                <th>Level</th>
+                <th>Max Level</th>
+            </tr>
+            <tr ng-repeat="item in member.troops">
+                <td>{{item.name}}</td>
+                <td>{{item.level}}</td>
+                <td>{{item.maxLevel}}</td>
+            </tr>
+        </table>
+    </div>
+
+</div>

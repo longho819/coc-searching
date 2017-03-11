@@ -14,4 +14,6 @@ public interface CocService {
 
     public Object getClanByTag(String tag);
 
+    public Object getPlayer(String tag);
+
 }

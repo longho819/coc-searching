@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="608e0edd-c970-4656-a916-ce7adc27c771" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/longho/cocsearch/apihanlder/CocService.class" afterPath="$PROJECT_DIR$/target/classes/com/longho/cocsearch/apihanlder/CocService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/longho/cocsearch/apihanlder/CocServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/longho/cocsearch/apihanlder/CocServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/longho/cocsearch/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/longho/cocsearch/controller/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/WEB-INF/classes/com/longho/cocsearch/apihanlder/CocService.class" afterPath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/WEB-INF/classes/com/longho/cocsearch/apihanlder/CocService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/WEB-INF/classes/com/longho/cocsearch/apihanlder/CocServiceImpl.class" afterPath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/WEB-INF/classes/com/longho/cocsearch/apihanlder/CocServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/WEB-INF/classes/com/longho/cocsearch/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/WEB-INF/classes/com/longho/cocsearch/controller/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cocsearching-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/cocsearching-jar-with-dependencies.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocService.java" afterPath="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/controller/HomeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/configuration.properties" afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/app/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/app/clan/_clandetails.html" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/app/clan/_clandetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/app/services/coc-service.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/app/services/coc-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/configuration.properties" afterPath="$PROJECT_DIR$/target/classes/configuration.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/META-INF/maven/com.longho.cocsearch/coc-search/pom.properties" afterPath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/META-INF/maven/com.longho.cocsearch/coc-search/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/WEB-INF/classes/configuration.properties" afterPath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/WEB-INF/classes/configuration.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/resources/js/app/app.js" afterPath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/resources/js/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/resources/js/app/clan/_clandetails.html" afterPath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/resources/js/app/clan/_clandetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/resources/js/app/services/coc-service.js" afterPath="$PROJECT_DIR$/target/coc-search-1.0-SNAPSHOT/resources/js/app/services/coc-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,11 +53,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="configuration.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/configuration.properties">
+      <file leaf-file-name="CocServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1862">
+              <caret line="112" column="44" lean-forward="false" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#853#854#0" expanded="false" />
+                <element signature="e#880#881#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#812#813#0" expanded="false" />
+                <element signature="e#842#843#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CocService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coc-service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/services/coc-service.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_playerdetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/clan/_playerdetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_clandetails.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/clan/_clandetails.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/home/_home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="893">
+              <caret line="47" column="82" lean-forward="false" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -51,8 +152,8 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="spring-beans.schema" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -102,11 +203,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/share/navbar/_header.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/share/navbar/HeaderCtrl.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/services/IPAddress.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/share/navbar/_nav.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/clan/clandetails.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/clan/_clandetails.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/common/navbar-static-top.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/home/HomeCtrl.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/home/_home.html" />
@@ -114,14 +213,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/configuration/RootConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/configuration/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/configuration/WebInit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/app.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/services/coc-service.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/longho/cocsearch/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/services/coc-service.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/clan/_clandetails.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/app.js" />
         <option value="$PROJECT_DIR$/src/main/resources/configuration.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/app/clan/_playerdetail.html" />
       </list>
     </option>
   </component>
@@ -407,7 +509,83 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cocsearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coc-searching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cocsearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coc-searching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aboutus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -596,7 +774,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="pom.x&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/pom.xml&#10;ip&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/java/com/longho/cocsearch/services/IPAddress.java&#10;Ip&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/java/com/longho/cocsearch/services/IPAddress.java&#10;CocSer&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java&#10;coc-s&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/webapp/resources/js/app/services/coc-service.js&#10;index.&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/webapp/index.jsp&#10;header&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/webapp/resources/js/app/share/navbar/_header.html" />
+    <property name="SearchEverywhereHistoryKey" value="App&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/webapp/resources/js/app/app.js&#10;Contro&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/java/com/longho/cocsearch/controller/HomeController.java&#10;Coc&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/java/com/longho/cocsearch/apihanlder/CocService.java&#10;conf&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/resources/configuration.properties&#10;c&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/webapp/resources/js/app/services/coc-service.js&#10;coc&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java&#10;pom.x&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/pom.xml&#10;ip&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/java/com/longho/cocsearch/services/IPAddress.java&#10;Ip&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/java/com/longho/cocsearch/services/IPAddress.java&#10;CocSer&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java&#10;coc-s&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/webapp/resources/js/app/services/coc-service.js&#10;index.&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/webapp/index.jsp&#10;header&#9;FILE&#9;file:///Users/leho/WorkSpace/coc-searching/src/main/webapp/resources/js/app/share/navbar/_header.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1268,12 +1446,17 @@
       <workItem from="1488300047539" duration="6807000" />
       <workItem from="1488595911420" duration="17133000" />
       <workItem from="1488643103648" duration="4156000" />
-      <workItem from="1488689192911" duration="14124000" />
+      <workItem from="1488689192911" duration="14713000" />
+      <workItem from="1488993645987" duration="485000" />
+      <workItem from="1489069763962" duration="4679000" />
+      <workItem from="1489110773242" duration="631000" />
+      <workItem from="1489159717171" duration="1111000" />
+      <workItem from="1489202191519" duration="984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98776000" />
+    <option name="totallyTimeSpent" value="107255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1286,13 +1469,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1228" height="777" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296796" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20820022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1302,25 +1485,25 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30259067" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270073" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32554746" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46861315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36934307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2900506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27979714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746115" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253886" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746115" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1369,19 +1552,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java</url>
-          <line>33</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java</url>
-          <line>67</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java</url>
-          <line>73</line>
+          <line>76</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
@@ -1393,15 +1576,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java</url>
           <line>86</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="19" />
@@ -1419,7 +1596,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/configuration.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/support/AbstractAnnotationConfigDispatcherServletInitializer.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1482,13 +1658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="41" column="59" lean-forward="false" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/aboutus/_aboutus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1587,14 +1756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/share/navbar/HeaderCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1607,19 +1768,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/clan/_clandetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/home/HomeCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1627,7 +1779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1635,15 +1786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/home/_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1651,9 +1793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="37" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1633#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1661,7 +1800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1669,9 +1807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#209#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1679,7 +1814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="13" column="76" lean-forward="false" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1695,18 +1829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-          <folding>
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1714,7 +1836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="24" column="79" lean-forward="false" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1722,38 +1843,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/app.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#812#813#0" expanded="false" />
+            <element signature="e#842#843#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/aboutus/_aboutus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="500" lean-forward="true" selection-start-line="2" selection-start-column="500" selection-end-line="2" selection-end-column="500" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="112" column="44" lean-forward="false" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#853#854#0" expanded="false" />
+            <element signature="e#880#881#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/clan/_playerdetail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/clan/_clandetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/home/_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="82" lean-forward="false" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/services/coc-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="19">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/longho/cocsearch/apihanlder/CocServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="18" />
           <folding />
         </state>
       </provider>

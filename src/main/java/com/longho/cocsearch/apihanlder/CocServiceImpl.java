@@ -12,6 +12,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by leho on 2/26/17.
@@ -19,8 +20,10 @@ import java.util.List;
 @Component
 public class CocServiceImpl implements CocService{
 
-    private final String url = "https://api.clashofclans.com/v1";
-    @Value("${api.token.deploy}")
+    @Value("${api.url}")
+    private String url;
+
+    @Value("${api.token}")
     private String token;
 
     public List<Object> GetMembersByClanName(String name) {
@@ -70,7 +73,7 @@ public class CocServiceImpl implements CocService{
 
     public Object getClanByTag(String tag) {
         try{
-            String urlGetClan = "https://api.clashofclans.com/v1/clans/{tag}";
+            String urlGetClan = url + "/clans/{tag}";
             RestTemplate restTemplate = new RestTemplate();
             HttpHeaders headers = new HttpHeaders();
             headers.set(HttpHeaders.AUTHORIZATION, "Bearer " + token);
@@ -83,8 +86,35 @@ public class CocServiceImpl implements CocService{
                             Object.class,tag);
             return responseEntity.getBody();
 
-        }catch (Exception ex){
+        }catch (HttpStatusCodeException ex){
             System.out.println(ex.toString());
+            System.out.println(ex.getResponseBodyAsString());
+
+        }
+        return null;
+    }
+
+    @Override
+    public Object getPlayer(String tag) {
+        try{
+            String urlGetPlayer = url + "/players/{tag}";
+            RestTemplate restTemplate = new RestTemplate();
+            HttpHeaders headers = new HttpHeaders();
+            headers.set(HttpHeaders.AUTHORIZATION, "Bearer " + token);
+            headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON, MediaType.APPLICATION_OCTET_STREAM));
+            HttpEntity<String> entity = new HttpEntity<>(null,headers);
+            ResponseEntity<Object> responseEntity = restTemplate.exchange(
+                    urlGetPlayer,
+                    HttpMethod.GET,
+                    entity,
+                    Object.class,
+                    tag
+            );
+            return responseEntity.getBody();
+        }catch (HttpStatusCodeException ex){
+            System.out.println(ex.toString());
+            System.out.println(ex.getResponseBodyAsString());
+
         }
         return null;
     }

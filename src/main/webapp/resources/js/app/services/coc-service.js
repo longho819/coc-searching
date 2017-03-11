@@ -8,7 +8,8 @@ angular.module('myApp')
 function clanservice($http,$location){
     var service = {
         searchClan: searchClan,
-        getClanByTag: getClanByTag
+        getClanByTag: getClanByTag,
+        getPlayerByTag: getPlayerByTag
     };
     return service;
     // var url = $location.protocol() + "://" + $location.host() + ":" + $location.port();
@@ -44,4 +45,17 @@ function clanservice($http,$location){
             console.log('XHR Failed for getClanByTag' + error.data);
         }
     };
+
+    function getPlayerByTag(tag){
+        return $http.get(
+            '/players?tag=' + tag.replace('#','%23'),
+            {'Content-Type' : 'application/json'}
+        ).then(getPlayer).catch(getPlayerFail);
+        function getPlayer(response){
+            return response.data;
+        }
+        function getPlayerFail(error){
+            console.log('XHR Failed for getPlayerByTag' + error.data);
+        }
+    }
 }

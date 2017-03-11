@@ -29,7 +29,7 @@ public class HomeController {
     }
 
     @RequestMapping(value="/clan/get", method = RequestMethod.GET)
-    public @ResponseBody Object getClann(
+    public @ResponseBody Object searchClan(
             @RequestParam(value = "name") String name,
             @RequestParam(value = "limit", defaultValue = "5") int limit,
             @RequestParam(value = "after", defaultValue = "") String after,
@@ -38,9 +38,16 @@ public class HomeController {
     }
 
     @RequestMapping(value="/clan", method = RequestMethod.GET)
-    public @ResponseBody Object getClann(
+    public @ResponseBody Object getClan(
             @RequestParam(value = "tag") String tag){
         return cocService.getClanByTag(tag);
+    }
+
+    @RequestMapping(value="/players", method = RequestMethod.GET)
+    public @ResponseBody Object getPlayer(
+            @RequestParam(value = "tag") String tag
+    ){
+                return cocService.getPlayer(tag);
     }
 
 }
